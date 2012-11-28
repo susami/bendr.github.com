@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bender Tutorial</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../bender.css">
+    <link rel="stylesheet" href="tutorial.css">
+  </head>
+  <body>
+    <div class="content">
+      <div class="tiles half">
+        <div class="sky-bg" id="logo">
+          <a href="../../index.html"></a>
+        </div>
+        <div class="text peach-bg">
+          <div>
+            <h2><a href="tutorial.html">Tutorial</a></h2>
+          </div>
+        </div>
+        <div class="text green-bg">
+          <div>
+            <h3>Start</h3>
+          </div>
+        </div>
+        <div class="text green-bg">
+          <div>
+            <ul>
+              <li><a href="hello-world.html">Hello World.</a></li>
+              <li>Button</li>
+              <li>Text input</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="text pink-bg">
+          <div>
+            <h2>App</h2>
+          </div>
+        </div>
+        <div class="text pink-bg">
+          <div>
+            <ul>
+              <li>property</li>
+              <li>set</li>
+              <li>view</li>
+              <li>watch</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="text gray-bg">
+          <div>
+            <p>Copyright © 2011, 2012, <a href="http://www.igel.co.jp">IGEL Co., Ltd.</a></p>
+          </div>
+        </div>
+        <div class="sky-bg">
+        </div>
+      </div>
+      <div class="description half">
+        <div>
+          {{ content }}
+        </div>
+      </div>
+    </div>
+
+    <script src="../../flexo.js"></script>
+    <script src="../../bender.js"></script>
+    <script>
+"use strict";
+
+var context = bender.create_context();
+var logo_component = context.create_component({ href: "../../demo/logo.xml",
+  sides: "7", fgcolor: "#2495b5", bgcolor: "white" });
+var logo_instance = bender.create_instance({ reference: logo_component });
+context.add_instance(logo_instance, document.querySelector("#logo a"));
+
+
+    </script>
+
+  </body>
+</html>
+
