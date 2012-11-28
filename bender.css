@@ -141,6 +141,10 @@ a {
   background-color: #db7093;
 }
 
+.pink-bg a {
+  color: #d3d3d3;
+}
+
 .gray-bg {
   background-color: #d3d3d3;
   color: #c71585;
