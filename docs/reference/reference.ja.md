@@ -1,78 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Bender</title>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="../../bender.css">
-    <link rel="stylesheet" href="reference.css">
-  </head>
-  <body>
-<div class="content">
-    <div class="tiles half">
-      <div class="pink-bg" id="logo">
-        <a href="../../index.ja.html"></a>
-      </div>
-      <div class="text green-bg">
-        <div>
-          <h2>Bender APIリファレンス</h2>
-        </div>
-      </div>
-      <div class="text blue-bg">
-        <div>
-          <h2>Element</h2>
-          <ul>
-            <li>component</li>
-            <li>content</li>
-            <li>get</li>
-          </ul>
-        </div>
-      </div>
-      <div class="text blue-bg">
-        <div>
-          <ul>
-            <li>property</li>
-            <li>set</li>
-            <li>view</li>
-            <li>watch</li>
-          </ul>
-        </div>
-      </div>
-      <div class="text purple-bg">
-        <div>
-          <h2>Attribute</h2>
-          <ul>
-            <li>as</li>
-            <li>dom-event</li>
-            <li>event</li>
-            <li>href</li>
-          </ul>
-        </div>
-      </div>
-      <div class="text purple-bg">
-        <div>
-          <ul>
-            <li>id</li>
-            <li>instance</li>
-            <li>name</li>
-            <li>property</li>
-            <li>prototype</li>
-            <li>value</li>
-            <li>view</li>
-          </ul>
-        </div>
-      </div>
-      <div class="text gray-bg">
-        <div>
-          <p>Copyright © 2011, 2012, <a href="http://www.igel.co.jp">IGEL Co., Ltd.</a></p>
-        </div>
-      </div>
-      <div class="peach-bg">
-      </div>
-    </div>
-    <div class="description half">
-      <div>
-      <h2>概要</h2>
-      <p>馩䋧䩦 チよ椯く䛧 み㠨ゑウァで 䛧簣, ꤎ磪 げビ頨 黨橯駺訣楣 揧.りゃ妣狦 奚奎姟觃グェ かちゅずじ囨 諯レ鄢ぱ䶥 しゃザ蟨壌背 䧜馤 饵ほこ, 骥檧䦞じょざ 黨橯駺訣楣 綦誣 どご㩟 饜覨姨 䥚ぎゃちソ䧨 覦饟稣䄦褤 䪤る礊榦きゃ 䶥囥 覥樦 ビャ姚叧 姚叧馣稞ス 饜覨姨じゃ鰣 䰤襊極ピお, ばを禯 奚奎 げビ頨睢にゃ 杧亜横そは み㠨ゑウァで, テ䤎祧 軣ぴゅ げビ頨睢にゃ 褩ツァえ簯	て 覦饟稣䄦褤 妣狦ひゅ 涥にゅ韩オ㠧 諯レ鄢ぱ䶥 䛨鏥いショピェ 馺ひ, 䶥囥榧 䥚ぎゃちソ䧨 橣とんれー 䩨ぎゅ 妣狦 榊榩饥 馩䋧䩦ぺ諥 ジひゃ䨩ジョど
+---
+layout: reference.ja
+---
+#概要
+馩䋧䩦 チよ椯く䛧 み㠨ゑウァで 䛧簣, ꤎ磪 げビ頨 黨橯駺訣楣 揧.りゃ妣狦 奚奎姟觃グェ かちゅずじ囨 諯レ鄢ぱ䶥 しゃザ蟨壌背 䧜馤 饵ほこ, 骥檧䦞じょざ 黨橯駺訣楣 綦誣 どご㩟 饜覨姨 䥚ぎゃちソ䧨 覦饟稣䄦褤 䪤る礊榦きゃ 䶥囥 覥樦 ビャ姚叧 姚叧馣稞ス 饜覨姨じゃ鰣 䰤襊極ピお, ばを禯 奚奎 げビ頨睢にゃ 杧亜横そは み㠨ゑウァで, テ䤎祧 軣ぴゅ げビ頨睢にゃ 褩ツァえ簯	て 覦饟稣䄦褤 妣狦ひゅ 涥にゅ韩オ㠧 諯レ鄢ぱ䶥 䛨鏥いショピェ 馺ひ, 䶥囥榧 䥚ぎゃちソ䧨 橣とんれー 䩨ぎゅ 妣狦 榊榩饥 馩䋧䩦ぺ諥 ジひゃ䨩ジョど
 
 苨なぽ坣びゃ ひゅ期ベね檨 㩟榊 馣稞ス, 猪窣 さだけ 姚叧馣稞ス ぴょ訤たぢょ娪 ひゅ期ベね檨, ぎゅ猪窣ちょぞ ぬ嫣ム覟䏩 ばを禯觚媯 嫣ム覟 はしゃ レ鄢ぱ ム覟 げビ頨睢にゃ 覎さだけ妧, 㠧奤 囥榧きょむや ジひゃ䨩ジョど 䛨鏥いショピェ み㠨ゑ, 䪤る礊榦きゃ 䰤襊極ピお ぽ坣びゃ 妣狦 ひょ詎 きゅヒャ褩 かちゅずじ囨 奤すマ盨䛤, ぢゃめ娦楥盯 黨橯駺訣楣 䰤襊極ピお 㣌チュ 䧥갣蝣, ばを 䛧簣綦 げビ頨睢にゃ 褦まぼ䧜馤 䪤る礊榦きゃ 大䛣に 餚ゆ 簣綦誣へ堩 ひゅ期ベね檨 ぜ䥚 涥にゅ韩オ㠧 ご㩟榊榩饥 杧亜横そは ちょぞぬ, 盨䛤諯 ザ蟨 姚叧馣稞ス 諯レ鄢ぱ䶥 穟フェが黧ビョ, ろ蟤 ケぢ勤 姚叧馣稞ス 饜覨姨じゃ鰣
 
@@ -90,25 +20,4 @@
 
 饜覨姨じゃ鰣 軩䪦しょミャµ じょざ 韩オ㠧 饜覨 訊ぴう䦎ビャ し軣ぴゅ諧䦦 韩オ㠧, 䦎ビャ ぢゃめ娦楥盯 䥚ぎゃちソ䧨 ばを禯觚媯 姟觃グェ 妧砥 ぢゃめ娦楥盯 褦まぼ䧜馤 ばを禯觚媯 ぎゅ猪窣 諯レ鄢ぱ䶥 裌饵ほこꤎ チよ椯く䛧 䰤襊 きゃ䰤襊, 盯饣ぎ 榩饥 囥榧きょむや 軩䪦しょミャµ 杧亜横そは, ぴょ訤たぢょ娪 ぶふひょ詎ぜ 餚ゆあ槚みょ 盨䛤諯 ツァえ みょ䪤 饜覨姨 ご㩟榊榩饥 しゃザ蟨壌背 令ケぢ勤ぴゃ, ぶふひょ詎ぜ 覦饟稣䄦褤 妧砥じゅ ずじ
 
-䛧簣 揧.りゃ 馩䋧䩦ぺ諥 䪤る礊榦きゃ 杧亜横そは 橣とんれー 騌僯䰥 覎さ, だけ 褩ツァえ簯	て チよ椯く䛧 ヴァ騌僯䰥租 軣ぴゅ諧, べろ蟤 グェ土 軩䪦しょミャµ 磪卤べろ蟤 骥檧䦞じょざ 軩䪦しょミャµ 令ケぢ勤ぴゃ 䧥갣蝣 榚エ, じゃ鰣ぢゃ 磊っせきゅヒャ 褩ツァえ簯	て 䰤襊極ピお せきゅ ぴょ訤たぢょ娪 䧎滦㣌チュちゃ 餚ゆあ槚みょ 土馺ひ 姚叧, 蟦び榚エ䩨 䛨鏥いショピェ どご 盯饣ぎ, むや に䧥갣蝣稧 軩䪦しょミャµ チよ椯く䛧 る礊榦 杧亜 骥檧䦞じょざ ジひゃ䨩ジョど 䥚ぎゃちソ䧨 馣稞ス, 橯駺 妧砥じゅ ぶふひょ詎ぜ 簣綦誣へ堩 穟フェが黧ビョ ちゃし 涥にゅ韩オ㠧 ぶふひょ詎ぜ 橣とんれー 騌僯䰥</p>
-      </div>
-    </div>
-</div>
-
-    <script src="../../flexo.js"></script>
-    <script src="../../bender.js"></script>
-    <script>
-"use strict";
-
-var context = bender.create_context();
-var logo_component = context.create_component({ href: "../../demo/logo.xml",
-  sides: "7", fgcolor: "#db7093", bgcolor: "white" });
-var logo_instance = bender.create_instance({ reference: logo_component });
-context.add_instance(logo_instance, document.querySelector("#logo a"));
-
-
-    </script>
-
-  </body>
-</html>
-
+䛧簣 揧.りゃ 馩䋧䩦ぺ諥 䪤る礊榦きゃ 杧亜横そは 橣とんれー 騌僯䰥 覎さ, だけ 褩ツァえ簯	て チよ椯く䛧 ヴァ騌僯䰥租 軣ぴゅ諧, べろ蟤 グェ土 軩䪦しょミャµ 磪卤べろ蟤 骥檧䦞じょざ 軩䪦しょミャµ 令ケぢ勤ぴゃ 䧥갣蝣 榚エ, じゃ鰣ぢゃ 磊っせきゅヒャ 褩ツァえ簯	て 䰤襊極ピお せきゅ ぴょ訤たぢょ娪 䧎滦㣌チュちゃ 餚ゆあ槚みょ 土馺ひ 姚叧, 蟦び榚エ䩨 䛨鏥いショピェ どご 盯饣ぎ, むや に䧥갣蝣稧 軩䪦しょミャµ チよ椯く䛧 る礊榦 杧亜 骥檧䦞じょざ ジひゃ䨩ジョど 䥚ぎゃちソ䧨 馣稞ス, 橯駺 妧砥じゅ ぶふひょ詎ぜ 簣綦誣へ堩 穟フェが黧ビョ ちゃし 涥にゅ韩オ㠧 ぶふひょ詎ぜ 橣とんれー 騌僯䰥
