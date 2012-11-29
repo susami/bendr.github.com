@@ -176,3 +176,6 @@ code {
   font-family: Inconsolota, Consolas, Menlo, monospace;
 }
 
+blockquote {
+  border: 1px dotted;
+}
