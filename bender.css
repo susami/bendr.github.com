@@ -139,6 +139,7 @@ a {
 
 .pink-bg {
   background-color: #db7093;
+  color: white;
 }
 
 .pink-bg a {
@@ -169,5 +170,9 @@ a {
   background-image:    -moz-linear-gradient(top, #444, #000);
   background-image:      -o-linear-gradient(top, #444, #000);
   background-image:         linear-gradient(to bottom, #444, #000);
+}
+
+code {
+  font-family: Inconsolota, Consolas, Menlo, monospace;
 }
 
