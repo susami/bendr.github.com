@@ -18,23 +18,23 @@ div.content {
   display: -webkit-box;
 }
 
-div.tiles.half {
-  width: 480px;
+div.tiles.quater {
+  width: 240px;
   position: absolute;
 }
 
-div.description.half {
-  width: 480px;
+div.description.threefourth {
+  width: 720px;
   height: 100%;
   margin: 10px;
   padding: 0;
   position: relative;
-  left: 480px;
+  left: 240px;
 }
 div.description > div {
   font-size: 16px;
   border-radius: 5px;
-  width: 480px;
+  width: 720px;
   height: 100%;
   margin: 10px;
   padding: 10px;
@@ -50,4 +50,12 @@ footer {
   position: relative;
 }
 
+.inline-list {
+  list-style-type: none;
+}
+
+.inline-list > li {
+  display: inline;
+  margin-right: 0.5em;
+}
 
