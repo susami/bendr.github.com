@@ -129,6 +129,10 @@ a {
   color: white;
 }
 
+.red-bg a {
+  color: #f1bbba;
+}
+
 .peach-bg {
   background-color: #fbc599;
 }
@@ -162,6 +166,18 @@ a {
 
 .sky-bg a {
   color: #ff9e9d;
+}
+
+.mikan-bg {
+  background-color: #f8c226;
+}
+
+.brown-bg {
+  background-color: #a76819;
+}
+
+.brown-bg a {
+  color: #f8ecc9;
 }
 
 .black-bg {
